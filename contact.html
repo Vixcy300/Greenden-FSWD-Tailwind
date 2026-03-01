@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greenden</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="./src/output.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav
+            class="bg-green-100 p-3 flex item-center justify-between shadow-xl sticky top-0">
+            <h1 class="text-2xl">GREENDEN</h1>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="size-6 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="flex gap-5 hidden md:flex">
+                <li class="hover:underline">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="hover:underline">
+                    <a href="./product.html">Product</a>
+                </li>
+                <li class="hover:underline">
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- contact -->
+        <section class="bg-white">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">
+                    Contact Us
+                </h2>
+
+                <p
+                    class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
+                    Got a technical issue? Want to send feedback? Need details
+                    about our services? Let us know.
+                </p>
+
+                <form action="#" class="space-y-8">
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email"
+                            class="block mb-2 text-sm font-medium text-gray-900">
+                            Your email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                            placeholder="name@example.com"
+                            required>
+                    </div>
+
+                    <!-- Subject -->
+                    <div>
+                        <label for="subject"
+                            class="block mb-2 text-sm font-medium text-gray-900">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                            placeholder="Let us know how we can help you"
+                            required>
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <label for="message"
+                            class="block mb-2 text-sm font-medium text-gray-900">
+                            Your message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="6"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                            placeholder="Leave a comment..."
+                            required>
+              </textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <button
+                        type="submit"
+                        class="py-3 px-5 text-sm font-medium text-white rounded-lg bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        Send message
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+            <h1 class="text-3xl font-bold">GREENDEN</h1>
+            <p>The Standaed Chunk of Lorem ipsum used since 1500s is reproduced
+                below for those interest   Developed by Vignesh.S</p>
+            <p>&copy; 2026 Greenday.com</p>
+        </section>
+    </body>
+</html>
